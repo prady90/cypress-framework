@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "configtest": "cypress open --config -file cypress/config/local.json"
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +18,4 @@
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
   }
-
 }

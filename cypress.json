@@ -1,3 +1,6 @@
 {
-    "testFiles": "**/*.{feature,features}"
+    "testFiles": "**/*.{feature,features}",
+    "viewportHeight": 860 ,
+    "viewportWidth": 1280 
+
   }

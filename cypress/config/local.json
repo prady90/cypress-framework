@@ -1,0 +1,19 @@
+{
+    
+    "testFiles": "**/*.{feature,features}",
+    "fixturesFolder" :"cypress/fixtures",
+    "integrationFolder" : "cypress/integration",
+    "videosFolder" : "cypress/videos",
+    "screenshotsFolder":"cypress/screenshots",
+    "pluginsFile":"cypress/plugins",
+    "execTimeout": 60000,
+    "defaultCommandTimeout": 60000,
+    "pageLoadTimeout": 60000 ,
+    "requestTimeout": 5000 ,
+    "viewportHeight": 860 ,
+    "viewportWidth": 1280 ,
+    "video": true,
+    "videoCompression": 32,
+    "videoUploadOnPasses" :true,
+    "responseTimeout": 10000
+}
